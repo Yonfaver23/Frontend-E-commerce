@@ -1,0 +1,83 @@
+
+.content-all{
+    margin-top: 10px;
+    position: relative;
+    display: inline-block;
+    flex-wrap: wrap;
+    padding:auto;
+ 
+
+}
+.card-products-all{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.card{
+    min-width: 35rem;
+    min-height: 35rem;
+    background-color: #ECECEC;
+    margin:10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1rem;
+    padding:3rem;
+   
+}
+/* section buscar*/
+header .label-search{
+    margin-right: 2rem;
+    font-style: italic;
+    font-weight: bold;
+}
+header .input-search{
+    /* border: none;
+    width:30rem;
+  
+    min-height: 4rem; */
+    font-size: 16px;
+    font-size: max(16px, 1em);
+    font-family: inherit;
+    padding: 0.25em 0.5em;
+    background-color: #fff;
+    border: 2px solid var(--input-border);
+    border-radius: 4px;
+    line-height: 1;
+    height: 3.25rem;
+    transition: 180ms box-shadow ease-in-out;
+    
+}
+ header input:focus{
+    border-color: hsl(
+        var(--input-focus-h),
+        var(--input-focus-s),
+        var(--input-focus-l)
+      );
+      box-shadow: 0 0 0 3px
+    hsla(
+      var(--input-focus-h),
+      var(--input-focus-s),
+      calc(var(--input-focus-l) + 40%),
+      0.8
+    );
+    outline: 3px solid  transparent;
+}
+header .input-search::placeholder{
+   padding: 2rem;
+    font-style: italic;
+ 
+}
+/* section buscar*/
+.content-all header{
+    position: relative;
+    background-color:rgb(230, 230, 230);
+     min-height:70px;
+     width:100%;
+     justify-content:center;
+     text-align: center;
+    padding:3rem;
+}
